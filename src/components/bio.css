@@ -1,0 +1,15 @@
+@import './css-shared/variables.css';
+
+.container {
+  padding: 2em 1em;
+  text-align: center;
+  background-color: var(--grey);
+}
+
+.imgWrapper {
+  width: 15em;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 1em;
+}

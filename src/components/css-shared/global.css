@@ -1,0 +1,55 @@
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+  background: linear-gradient(to left, #eff2f7 , #CFDEF3);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+button {
+  cursor:pointer;
+  border:0;
+  -webkit-appearance:none;
+  outline:0;
+  padding:0;
+  box-shadow:none;
+  user-select:none;
+  text-decoration:none;
+  font-style:normal;
+  color:inherit;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}

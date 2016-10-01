@@ -1,0 +1,10 @@
+@import 'normalize.css';
+@import './css-shared/variables.css';
+@import './css-shared/media-queries.css';
+@import './css-shared/global.css';
+@import './css-shared/typography.css';
+
+
+.container {
+  height: 100vh;
+}

@@ -1,0 +1,45 @@
+@import './css-shared/variables.css';
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputWrapper {
+  padding: 2em 1.5em;
+  border-radius: 2px;
+  background-color: var(--grey);
+  text-align: center;
+  display: inline-block;
+  width: 17em;
+  margin: .2em;
+  box-shadow: 1px 1px 3px var(--shadowGrey);
+}
+
+.input {
+  background-color: var(--grey);
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  padding: 1em;
+  text-transform: uppercase;
+  color: white;
+  transition: background-position .5s;
+  background-size: 200% auto;
+  background-position: 0 0;
+  background-image: linear-gradient(50deg, #4527a0 2%,#7e57c2 20%,#f50057 50%,#7e57c2 90%);
+  border-radius: 2px;
+  margin: .2em;
+  box-shadow: 1px 1px 3px var(--shadowGrey);
+}
+
+.btn:hover {
+  background-position: 100% 0;
+}

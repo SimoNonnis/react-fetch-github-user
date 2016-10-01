@@ -1,0 +1,10 @@
+@import './css-shared/variables.css';
+
+.repo {
+  padding: 1.5em 1em 1em;
+  background-color: var(--grey);
+}
+
+.repo + .repo {
+  border-top: 1px solid #dcdcdc;
+}
