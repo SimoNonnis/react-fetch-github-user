@@ -10,7 +10,7 @@
     "clean": "rm -rf ./dist/*",
     "prebuild": "mkdir -p ./dist && npm run clean && cp favicon.ico ./dist",
     "build": "webpack -p --config webpack.config.prod.js",
-    "postbuild": "http-server ./dist -p 8081 -d false --cors -o -c-1",
+    "postbuild": "http-server ./dist -p 8081 -d false --cors -o",
     "stats": "webpack --profile --json > stats.json",
     "test": "NODE_ENV=test mocha --require './src/test/setup.js' --recursive './src/test/*.test.js' --compilers js:babel-core/register --require ignore-styles"
   },
